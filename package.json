@@ -1,0 +1,28 @@
+{
+  "name": "sqlite-tablegenerator",
+  "version": "0.1.0",
+  "description": "Class for generating queries for creating tables in SQLite format.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "index.d.ts",
+  "author": "Sylvain DANGIN",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sylvaner/SQLite-TableGenerator.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "sample": "ts-node --esm ./samples/index.ts",
+    "doc": "typedoc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.24.1",
+    "typedoc-plugin-markdown": "^3.15.1",
+    "typescript": "^5.0.4"
+  }
+}
