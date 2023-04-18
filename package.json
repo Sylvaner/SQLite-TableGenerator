@@ -15,11 +15,15 @@
     "build": "tsc",
     "start": "node ./dist/index.js",
     "sample": "ts-node --esm ./samples/index.ts",
-    "doc": "typedoc"
+    "doc": "typedoc",
+    "test": "jest"
   },
   "dependencies": {},
   "devDependencies": {
+    "@types/jest": "^29.5.0",
     "@types/node": "^18.15.11",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
     "typedoc": "^0.24.1",
     "typedoc-plugin-markdown": "^3.15.1",

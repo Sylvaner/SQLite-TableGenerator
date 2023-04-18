@@ -21,7 +21,8 @@
 		"composite": true,
 		"incremental": true,
 		"types": [
-			"node"
+			"node",
+			"jest"
 		],
 		"lib": [
 			"es2015",
